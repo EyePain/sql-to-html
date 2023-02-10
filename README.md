@@ -1,4 +1,4 @@
-# sql-to-html #
+# SQL to HTML #
 This was created by Alexander Shapiro.
 Link to the tutorial vvv
 https://docs.google.com/presentation/d/1jFClKu4jrRYlHLB2o2Of7L9gDXX8v7oc1JmQaQmv8GY
