@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SQL to HTML</title>
+</head>
+<body>
+    <!-- Create interactive elements used to make queries -->
+    <button onclick="query()">Query</button>
+    <select id="select">
+        <option>All</option>
+        <option>Red</option>
+        <option>Blue</option>
+    </select>
+
+    <!-- Create a table to display queries -->
+    <table border="1" id="table">
+        <tr>
+            <th>ID</th>
+            <th>Color</th>
+        </tr>
+    </table>
+
+    <!-- Create a button to reload the database -->
+    <button onclick="reload()">Reload Database</button>
+
+    <!-- Run the JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
