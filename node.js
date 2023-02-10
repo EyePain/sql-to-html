@@ -71,7 +71,7 @@ app.post('/postData', (req, res) => {
             }
         });
     } else if (filter == "Reload") { // If the user is trying to repopulate the database, then...
-        db.run(`DROP TABLE tutorial`) // Delete the database
+        db.run(`DROP TABLE tutorial`); // Delete the database
         makeTable(); // Create a new table
     } else { // If the user is querying a specific color, then...
         db.all(`SELECT * FROM tutorial WHERE exampleColor = '` + filter + `'`, (err, rows) => { // Find the rows with exampleColor = specified color
