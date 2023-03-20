@@ -54,7 +54,7 @@ app.listen(5500, () => {
 
 // When a GET request is sent, send back a message to the client
 app.get('/getData', (req, res) => {
-    console.log("Got pinged by a client!")
+    console.log("Got pinged by a client!");
     res.send("Hey, we're connected on this end.");
 });
 
